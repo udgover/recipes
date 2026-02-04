@@ -1,0 +1,3 @@
+From_Base64('A-Za-z0-9+/=',true,false)
+Regular_expression('User defined','d\\.update\\s*\\(\\s*["\']([^"\']+)["\']',true,true,false,false,false,false,'List capture groups')
+AES_Decrypt({'option':'UTF8','string':''},{'option':'Base64','string':''},'CBC','Hex','Raw',{'option':'Hex','string':''},{'option':'Hex','string':''})
